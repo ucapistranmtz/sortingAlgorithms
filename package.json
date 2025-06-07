@@ -17,7 +17,7 @@
   "scripts": {
     "build": "npx tsc",
     "start": "npm run build && node dist/index.js",
-    "dev": "nodemon --watch src --ext ts --exec ts-node src/sorts/index.ts",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
     "test": "jest"
   },
   "dependencies": {
